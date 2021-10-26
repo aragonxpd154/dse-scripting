@@ -1,0 +1,2410 @@
+<ConfigurationFile_Extended Features="PCOnlyUpdate">
+  <ConfigurationFile ModuleTypeCode="32807" ModuleMajorVersion="4" ModuleMinorVersion="7">
+    <Header>
+      <Description>4520 MKII Configuration file</Description>
+      <Saved_on ConfigSuite_Version="3.101.1.0">24-out-21 16:18:14</Saved_on>
+      <MajorVersion>4</MajorVersion>
+      <MinorVersion>7</MinorVersion>
+    </Header>
+    <PC_Header>
+      <UpdateVersion>0</UpdateVersion>
+    </PC_Header>
+    <Alarms>
+      <Digital_Input_1>
+        <Function Comment="Oil Pressure Switch">21</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Digital_Input_1>
+      <Digital_Input_2>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Open to Activate">1</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Digital_Input_2>
+      <Digital_Input_3>
+        <Function Comment="Coolant Temperature Switch">22</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Digital_Input_3>
+      <Digital_Input_4>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Digital_Input_4>
+      <Flexible_Sensors_as_Digital>
+        <Flex_A_as_Digital>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Close to Activate">0</Type>
+          <Timer Comment="0s">0</Timer>
+          <Trip Comment="0">0</Trip>
+          <Return Comment="0">0</Return>
+        </Flex_A_as_Digital>
+        <Flex_B_as_Digital>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Close to Activate">0</Type>
+          <Timer Comment="0s">0</Timer>
+          <Trip Comment="0">0</Trip>
+          <Return Comment="0">0</Return>
+        </Flex_B_as_Digital>
+        <Flex_C_as_Digital>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Close to Activate">0</Type>
+          <Timer Comment="0s">0</Timer>
+          <Trip Comment="0">0</Trip>
+          <Return Comment="0">0</Return>
+        </Flex_C_as_Digital>
+      </Flexible_Sensors_as_Digital>
+      <Flex_Sensor_Alarms>
+        <Input_A>
+          <Low_Shutdown>
+            <LowShutdownAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Less Than">2</Type>
+              <Timer Comment="0s">0</Timer>
+            </LowShutdownAB>
+            <Trip Comment="136">136</Trip>
+            <Return Comment="136">136</Return>
+          </Low_Shutdown>
+          <Low_Warning>
+            <LowWarningAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Less Than">2</Type>
+              <Timer Comment="0s">0</Timer>
+            </LowWarningAB>
+            <Trip Comment="272">272</Trip>
+            <Return Comment="408">408</Return>
+          </Low_Warning>
+          <High_Warning>
+            <HighWarningAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Greater Than">3</Type>
+              <Timer Comment="0s">0</Timer>
+            </HighWarningAB>
+            <Trip Comment="816">816</Trip>
+            <Return Comment="680">680</Return>
+          </High_Warning>
+          <High_Shutdown>
+            <HighShutdownAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Greater Than">3</Type>
+              <Timer Comment="0s">0</Timer>
+            </HighShutdownAB>
+            <Trip Comment="1088">1088</Trip>
+            <Return Comment="1088">1088</Return>
+          </High_Shutdown>
+          <Sensor_Fault>
+            <Function Comment="User Configured">0</Function>
+            <Action Comment="None">0</Action>
+            <Arming Comment="Always">1</Arming>
+            <Type Comment="Close to Activate">0</Type>
+            <Timer Comment="0,0s">0</Timer>
+            <Trip Comment="0">0</Trip>
+            <Return Comment="0">0</Return>
+          </Sensor_Fault>
+        </Input_A>
+        <Input_C>
+          <Low_Shutdown>
+            <LowShutdownAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Less Than">2</Type>
+              <Timer Comment="0s">0</Timer>
+            </LowShutdownAB>
+            <Trip Comment="40">40</Trip>
+            <Return Comment="40">40</Return>
+          </Low_Shutdown>
+          <Low_Warning>
+            <LowWarningAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Less Than">2</Type>
+              <Timer Comment="0s">0</Timer>
+            </LowWarningAB>
+            <Trip Comment="41">41</Trip>
+            <Return Comment="42">42</Return>
+          </Low_Warning>
+          <High_Warning>
+            <HighWarningAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Greater Than">3</Type>
+              <Timer Comment="0s">0</Timer>
+            </HighWarningAB>
+            <Trip Comment="44">44</Trip>
+            <Return Comment="43">43</Return>
+          </High_Warning>
+          <High_Shutdown>
+            <HighShutdownAB>
+              <Function Comment="User Configured">0</Function>
+              <Action Comment="None">0</Action>
+              <Arming Comment="Always">1</Arming>
+              <Type Comment="Analogue Greater Than">3</Type>
+              <Timer Comment="0s">0</Timer>
+            </HighShutdownAB>
+            <Trip Comment="45">45</Trip>
+            <Return Comment="45">45</Return>
+          </High_Shutdown>
+          <Sensor_Fault>
+            <Function Comment="User Configured">0</Function>
+            <Action Comment="None">0</Action>
+            <Arming Comment="Always">1</Arming>
+            <Type Comment="Close to Activate">0</Type>
+            <Timer Comment="0,0s">0</Timer>
+            <Trip Comment="0">0</Trip>
+            <Return Comment="0">0</Return>
+          </Sensor_Fault>
+        </Input_C>
+      </Flex_Sensor_Alarms>
+      <Low_Oil_Pressure_Shutdown>
+        <Partial_AB>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Engine Protection Activation">4</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0s">0</Timer>
+        </Partial_AB>
+        <Trip Comment="136">136</Trip>
+        <Return Comment="136">136</Return>
+      </Low_Oil_Pressure_Shutdown>
+      <High_Coolant_Temperature_Warning>
+        <Partial_AB>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Engine Protection Activation">4</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0s">0</Timer>
+        </Partial_AB>
+        <Trip Comment="105">105</Trip>
+        <Return Comment="99">99</Return>
+      </High_Coolant_Temperature_Warning>
+      <High_Coolant_Temperature_Shutdown>
+        <Partial_AB>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Engine Protection Activation">4</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0s">0</Timer>
+        </Partial_AB>
+        <Trip Comment="108">108</Trip>
+        <Return Comment="108">108</Return>
+      </High_Coolant_Temperature_Shutdown>
+      <Plant_Battery_Under_Volts>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Analogue Less Than">2</Type>
+        <Timer Comment="1m">600</Timer>
+        <Trip Comment="8,0 V DC">8.0</Trip>
+        <Return Comment="8,5 V DC">8.5</Return>
+      </Plant_Battery_Under_Volts>
+      <Plant_Battery_Over_Volts>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="1m">600</Timer>
+        <Trip Comment="15,0 V DC">15.0</Trip>
+        <Return Comment="14,9 V DC">14.9</Return>
+      </Plant_Battery_Over_Volts>
+      <Charge_Alternator_Warning>
+        <Arming Comment="Never">0</Arming>
+        <Timer Comment="5s">50</Timer>
+        <Trip Comment="6,0 V DC">6.0</Trip>
+      </Charge_Alternator_Warning>
+      <Charge_Alternator_Shutdown>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Never">0</Arming>
+        <Timer Comment="5s">50</Timer>
+        <Trip Comment="4,0 V DC">4.0</Trip>
+      </Charge_Alternator_Shutdown>
+      <Fail_to_Stop>
+        <Function>0</Function>
+        <Action Comment="Warning Always Non Latched">4</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type>0</Type>
+        <Timer>0</Timer>
+        <Trip>0</Trip>
+        <Return>0</Return>
+      </Fail_to_Stop>
+      <Generator_Fail_to_Close>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="1,0s">10</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Generator_Fail_to_Close>
+      <Crank_Disconnect_on_Generator_Frequency>
+        <Function Comment="Crank Disconnect">27</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="21,0 Hz">21.0</Trip>
+        <Return Comment="21,0 Hz">21.0</Return>
+      </Crank_Disconnect_on_Generator_Frequency>
+      <Crank_Disconnect_on_Engine_Speed>
+        <Function Comment="Crank Disconnect">27</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="600 RPM">600</Trip>
+        <Return Comment="600 RPM">600</Return>
+      </Crank_Disconnect_on_Engine_Speed>
+      <Crank_Disconnect_on_Oil_Pressure>
+        <Function Comment="Crank Disconnect">27</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="2,00Bar, 29,01 PSI, 200 kPa">2.00</Trip>
+        <Return Comment="2,00Bar, 29,01 PSI, 200 kPa">2.00</Return>
+      </Crank_Disconnect_on_Oil_Pressure>
+      <Emergency_Stop>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0,3s">3</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Emergency_Stop>
+      <Calibration_Lost>
+        <Function>0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type>0</Type>
+        <Timer>0</Timer>
+        <Trip>0</Trip>
+        <Return>0</Return>
+      </Calibration_Lost>
+      <Fuel_Level_Alarms>
+        <Low_Warning>
+          <Partial_AB>
+            <Function Comment="User Configured">0</Function>
+            <Action Comment="None">0</Action>
+            <Arming Comment="Always">1</Arming>
+            <Type Comment="Analogue Less Than">2</Type>
+            <Timer Comment="0s">0</Timer>
+          </Partial_AB>
+          <Trip Comment="20">20</Trip>
+          <Return Comment="30">30</Return>
+        </Low_Warning>
+        <Low_Shutdown>
+          <Partial_AB>
+            <Function Comment="User Configured">0</Function>
+            <Action Comment="None">0</Action>
+            <Arming Comment="Always">1</Arming>
+            <Type Comment="Analogue Less Than">2</Type>
+            <Timer Comment="0s">0</Timer>
+          </Partial_AB>
+          <Trip Comment="10">10</Trip>
+          <Return_-Trip_Copy Comment="10">10</Return_-Trip_Copy>
+        </Low_Shutdown>
+        <High_Warning>
+          <Partial_AB>
+            <Function Comment="User Configured">0</Function>
+            <Action Comment="None">0</Action>
+            <Arming Comment="Always">1</Arming>
+            <Type Comment="Analogue Greater Than">3</Type>
+            <Timer Comment="0s">0</Timer>
+          </Partial_AB>
+          <Trip Comment="60">60</Trip>
+          <Return Comment="50">50</Return>
+        </High_Warning>
+        <High_Shutdown>
+          <Partial_AB>
+            <Function Comment="User Configured">0</Function>
+            <Action Comment="None">0</Action>
+            <Arming Comment="Always">1</Arming>
+            <Type Comment="Analogue Greater Than">3</Type>
+            <Timer Comment="0s">0</Timer>
+          </Partial_AB>
+          <Trip Comment="75">75</Trip>
+          <Return_-Trip_Copy Comment="75">75</Return_-Trip_Copy>
+        </High_Shutdown>
+      </Fuel_Level_Alarms>
+      <CAN_ECU_Error>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </CAN_ECU_Error>
+      <CAN_ECU_Fail>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="From Safety On">3</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </CAN_ECU_Fail>
+      <CAN_ECU_Data_Fail>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="From Safety On">3</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </CAN_ECU_Data_Fail>
+      <Low_Oil_Switch>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Engine Protection Activation">4</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Low_Oil_Switch>
+      <High_Engine_Temperature_Switch>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Engine Protection Activation">4</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </High_Engine_Temperature_Switch>
+      <Low_Fuel_Level_Switch>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Low_Fuel_Level_Switch>
+      <Maintenance_Oil>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Always">1</Arming>
+        <Timer Comment="0">0</Timer>
+        <Type Comment="Close to Activate">0</Type>
+        <Param1_Hours Comment="10 hrs">10</Param1_Hours>
+        <Param2_Months Comment="1 months">1</Param2_Months>
+      </Maintenance_Oil>
+      <Coolant_Heater>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Indication">6</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Less Than">2</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="50 °C,  122 °F">50</Trip>
+        <Return Comment="55 °C,  131 °F">55</Return>
+      </Coolant_Heater>
+      <Coolant_Cooler>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Indication">6</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="75 °C,  167 °F">75</Trip>
+        <Return Comment="70 °C,  158 °F">70</Return>
+      </Coolant_Cooler>
+      <Maintenance_Air>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Never">0</Arming>
+        <Timer Comment="0">0</Timer>
+        <Type Comment="Close to Activate">0</Type>
+        <Param1_Hours Comment="10 hrs">10</Param1_Hours>
+        <Param2_Months Comment="1 months">1</Param2_Months>
+      </Maintenance_Air>
+      <Maintenance_Fuel>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Never">0</Arming>
+        <Timer Comment="0">0</Timer>
+        <Type Comment="Close to Activate">0</Type>
+        <Param1_Hours Comment="10 hrs">10</Param1_Hours>
+        <Param2_Months Comment="1 months">1</Param2_Months>
+      </Maintenance_Fuel>
+      <Oil_Sensor_Open_Circuit>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="2,5s">25</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Oil_Sensor_Open_Circuit>
+      <Coolant_Sensor_Open_Circuit>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Shutdown">1</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0,0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Coolant_Sensor_Open_Circuit>
+      <Start_On_Low_Battery>
+        <Function Comment="Low Battery Run">64</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Less Than">2</Type>
+        <Timer Comment="5s">50</Timer>
+        <Trip Comment="18,0 V DC">18.0</Trip>
+        <Return Comment="18,0 V DC">18.0</Return>
+      </Start_On_Low_Battery>
+      <LCD_Heater>
+        <HeaterLowVolts>
+          <Function Comment="LCD Heater Low Voltage">61</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="9,0 V DC">9.0</Trip>
+          <Return Comment="10,0 V DC">10.0</Return>
+        </HeaterLowVolts>
+        <HeaterHighVolts>
+          <Function Comment="LCD Heater High Voltage">62</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="35,0 V DC">35.0</Trip>
+          <Return Comment="34,0 V DC">34.0</Return>
+        </HeaterHighVolts>
+        <ScreenTemp>
+          <Function Comment="LCD Heater Temperature Switch">63</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="-10 °C,  14 °F">-10</Trip>
+          <Return Comment="-5 °C,  23 °F">-5</Return>
+        </ScreenTemp>
+      </LCD_Heater>
+      <CAN_HEST_Alarm>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="From Safety On">3</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </CAN_HEST_Alarm>
+      <CAN_DPF_Alarm>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="From Safety On">3</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </CAN_DPF_Alarm>
+      <CAN_ECU_Water_In_Fuel>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </CAN_ECU_Water_In_Fuel>
+      <DEF_Level_Low>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="From Safety On">3</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </DEF_Level_Low>
+      <SCR_Inducement>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="From Safety On">3</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Param1>0</Param1>
+        <Param2>0</Param2>
+      </SCR_Inducement>
+      <Tank_Bund_Level_Low>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Tank_Bund_Level_Low>
+      <Fan_Speed_Low>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning">5</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Fan_Speed_Low>
+      <Fuel_Usage_-_Running>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning Always Latched">3</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="10 % / Hr">10</Trip>
+        <Return Comment="9 % / Hr">9</Return>
+      </Fuel_Usage_-_Running>
+      <Fuel_Usage_-_Stopped>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="Warning Always Latched">3</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="10 % / Hr">10</Trip>
+        <Return Comment="9 % / Hr">9</Return>
+      </Fuel_Usage_-_Stopped>
+      <Low_Coolant_Level>
+        <Partial_AB>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0s">0</Timer>
+        </Partial_AB>
+        <Trip Comment="136">136</Trip>
+        <Return Comment="272">272</Return>
+      </Low_Coolant_Level>
+      <Low_Coolant_Level_Switch>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Low_Coolant_Level_Switch>
+      <Low_Coolant_Level_Sensor_Fault>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0,0s">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Low_Coolant_Level_Sensor_Fault>
+      <Crank_Disconnect_on_Charge_Alt_Voltage>
+        <Function Comment="Crank Disconnect">27</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Never">0</Arming>
+        <Type Comment="Analogue Greater Than">3</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="6,0 V DC">6.0</Trip>
+        <Return Comment="6,0 V DC">6.0</Return>
+      </Crank_Disconnect_on_Charge_Alt_Voltage>
+      <Wait_To_Start>
+        <Function Comment="User Configured">0</Function>
+        <Action Comment="None">0</Action>
+        <Arming Comment="Always">1</Arming>
+        <Type Comment="Close to Activate">0</Type>
+        <Timer Comment="0">0</Timer>
+        <Trip Comment="0">0</Trip>
+        <Return Comment="0">0</Return>
+      </Wait_To_Start>
+    </Alarms>
+    <Digital_Outputs>
+      <New>
+        <Output_A>
+          <Control_Source Comment="Fuel Relay">2</Control_Source>
+          <Polarity Comment="Energise">0</Polarity>
+        </Output_A>
+        <Output_B>
+          <Control_Source Comment="Start Relay">4</Control_Source>
+          <Polarity Comment="Energise">0</Polarity>
+        </Output_B>
+        <Output_C>
+          <Control_Source Comment="Not Used">0</Control_Source>
+          <Polarity Comment="Energise">0</Polarity>
+        </Output_C>
+        <Output_D>
+          <Control_Source Comment="Not Used">0</Control_Source>
+          <Polarity Comment="Energise">0</Polarity>
+        </Output_D>
+        <Output_E>
+          <Control_Source Comment="Close Mains Output">21</Control_Source>
+          <Polarity Comment="De-Energise">1</Polarity>
+        </Output_E>
+        <Output_F>
+          <Control_Source Comment="Close Gen Output">22</Control_Source>
+          <Polarity Comment="Energise">0</Polarity>
+        </Output_F>
+      </New>
+      <Mains_Contactor_LED>
+        <Control_Source Comment="Closed To Mains State">30</Control_Source>
+        <Polarity Comment="Energise">0</Polarity>
+      </Mains_Contactor_LED>
+      <Gen_Contactor_LED>
+        <Control_Source Comment="Closed To Generator State">29</Control_Source>
+        <Polarity Comment="Energise">0</Polarity>
+      </Gen_Contactor_LED>
+    </Digital_Outputs>
+    <Icons>
+      <InputA>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </InputA>
+      <InputB>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </InputB>
+      <InputC>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </InputC>
+      <InputD>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </InputD>
+      <AnalogueInputA>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </AnalogueInputA>
+      <AnalogueInputB>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </AnalogueInputB>
+      <AnalogueInputC>
+        <UseCustomIcon>False</UseCustomIcon>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBjTY6ApYGAAAABgAAGtYAWpAAAAAElFTkSuQmCC</Bitmap>
+      </AnalogueInputC>
+    </Icons>
+    <Misc_Items>
+      <Misc_16_Bit>
+        <Ignore_Oil_Pressure_For_Engine_At_Rest>True</Ignore_Oil_Pressure_For_Engine_At_Rest>
+        <Power_Save_Enabled>False</Power_Save_Enabled>
+        <Alternator_Fitted>True</Alternator_Fitted>
+        <Default_Config Comment="Main Configuration">0</Default_Config>
+        <Alternator_Poles Comment="4">4</Alternator_Poles>
+        <Flywheel_Teeth Comment="190">190</Flywheel_Teeth>
+        <Protected_Start_Enabled>False</Protected_Start_Enabled>
+        <Fast_Loading_Enable>False</Fast_Loading_Enable>
+        <Startup_Lamp_Test_Enable>False</Startup_Lamp_Test_Enable>
+        <Warnings_Latched>False</Warnings_Latched>
+        <Low_Oil_Switch_in_use>True</Low_Oil_Switch_in_use>
+        <Display_SPN_Strings>False</Display_SPN_Strings>
+        <Instrumentation_Supression_Flags Comment="0">0</Instrumentation_Supression_Flags>
+        <Scheduler_Enabled>False</Scheduler_Enabled>
+        <Event_Log_in_hours_run>False</Event_Log_in_hours_run>
+        <Schedule_Run_On_Load>False</Schedule_Run_On_Load>
+        <Display_Voltage_In_Module_Phase_to_Phase>False</Display_Voltage_In_Module_Phase_to_Phase>
+        <Maintainence_Pin_Protection>False</Maintainence_Pin_Protection>
+        <Cool_Down_On_Stop>False</Cool_Down_On_Stop>
+        <Scheduler_Repeat_Interval Comment="Weekly">0</Scheduler_Repeat_Interval>
+        <Power_Up_In_Mode Comment="Stop">0</Power_Up_In_Mode>
+        <CT_Location Comment="Gen">0</CT_Location>
+        <Deep_Sleep_Enabled>False</Deep_Sleep_Enabled>
+        <CT_Enable>False</CT_Enable>
+        <Non_Mission_Regeneration_Enable>False</Non_Mission_Regeneration_Enable>
+        <Module_Type Comment="AMF">0</Module_Type>
+        <Tier_IV_Home_Screen>False</Tier_IV_Home_Screen>
+        <Show_Load_Switching_Icons>True</Show_Load_Switching_Icons>
+        <Backlight_Power_Save_Mode_Enable>False</Backlight_Power_Save_Mode_Enable>
+        <ECU_Periodic_Wakeup>False</ECU_Periodic_Wakeup>
+        <Coolant_Measurement_Persistence>False</Coolant_Measurement_Persistence>
+        <Limit_Audible_Alarm_Duration>False</Limit_Audible_Alarm_Duration>
+        <Fuel_Usage_Rate_Mode Comment="Standard Mode">0</Fuel_Usage_Rate_Mode>
+        <Module_to_measure_coolant_level>False</Module_to_measure_coolant_level>
+        <TPSU_Enabled>False</TPSU_Enabled>
+        <Enable_Text_Mode>False</Enable_Text_Mode>
+        <Ignore_Active_Alarms>False</Ignore_Active_Alarms>
+      </Misc_16_Bit>
+      <Misc_32_Bit>
+        <Overspeed_Overshoot Comment="10 %">10</Overspeed_Overshoot>
+        <Fuel_Usage_Sample_Window Comment="10s">100</Fuel_Usage_Sample_Window>
+        <Fuel_Rise_Indicate_Filling Comment="1 %">1</Fuel_Rise_Indicate_Filling>
+      </Misc_32_Bit>
+    </Misc_Items>
+    <RS485_Comms>
+      <Slave_ID Comment="10">10</Slave_ID>
+      <Baud_Rate Comment="19200">9</Baud_Rate>
+      <Inactivity_Timeout Comment="5s">50</Inactivity_Timeout>
+    </RS485_Comms>
+    <Timers>
+      <Start_Delay Comment="10s">100</Start_Delay>
+      <Return_Delay Comment="15s">150</Return_Delay>
+      <Transfer_Delay Comment="7,0s">70</Transfer_Delay>
+      <Smoke_Limiting Comment="0s">0</Smoke_Limiting>
+      <Smoke_Limiting_Ramp Comment="0s">0</Smoke_Limiting_Ramp>
+      <Warming Comment="10s">100</Warming>
+      <Cooling Comment="30s">300</Cooling>
+      <Generator_Transient_Delay Comment="4,0s">40</Generator_Transient_Delay>
+      <Safety_On_Delay Comment="20s">20</Safety_On_Delay>
+      <ETS_Hold Comment="0s">0</ETS_Hold>
+      <Mains_Transient_Delay Comment="10s">10</Mains_Transient_Delay>
+      <Low_Power_Shutdown_Delay Comment="1m">600</Low_Power_Shutdown_Delay>
+      <Overspeed_overshoot Comment="2s">2</Overspeed_overshoot>
+      <Breaker_Trip_Pulse Comment="0,0s">0</Breaker_Trip_Pulse>
+      <Breaker_Close_Pulse Comment="0,0s">0</Breaker_Close_Pulse>
+      <Low_Battery_Run_Time Comment="1h">36000</Low_Battery_Run_Time>
+      <Deep_Sleep_Time Comment="1m 30s">900</Deep_Sleep_Time>
+      <Page_Time Comment="5m">3000</Page_Time>
+      <Load_Delay_1 Comment="0s">0</Load_Delay_1>
+      <Load_Delay_2 Comment="0s">0</Load_Delay_2>
+      <Load_Delay_3 Comment="0s">0</Load_Delay_3>
+      <Load_Delay_4 Comment="0s">0</Load_Delay_4>
+      <Cooling_Time_At_Idle Comment="0s">0</Cooling_Time_At_Idle>
+      <DPF_Ramp Comment="5,0s">50</DPF_Ramp>
+      <Backlight_Power_Save_Delay Comment="1m">600</Backlight_Power_Save_Delay>
+      <Audible_Alarm_Duration Comment="20s">20</Audible_Alarm_Duration>
+      <ECU_Periodic_Wakeup Comment="1h">36000</ECU_Periodic_Wakeup>
+      <ECU_Override_Time Comment="2m">120</ECU_Override_Time>
+      <Fuel_Pull_in_Coil_Output Comment="1,0s">10</Fuel_Pull_in_Coil_Output>
+    </Timers>
+    <Sensor_Configuration>
+      <Input_A>
+        <Sensor_Usage Comment="Oil Sensor">3</Sensor_Usage>
+        <Curve_Data>
+          <Curve_ID Comment="0x14 (13 Bar | Volts | Bar)">20</Curve_ID>
+          <X_Unit>
+            <UnitId>6</UnitId>
+          </X_Unit>
+          <X_Axis_Display_Min Comment="0">0</X_Axis_Display_Min>
+          <X_Axis_Display_Max Comment="10000">10000</X_Axis_Display_Max>
+          <Y_Unit>
+            <UnitId>2</UnitId>
+          </Y_Unit>
+          <Y_Axis_Display_Min Comment="0">0</Y_Axis_Display_Min>
+          <Y_Axis_Display_Max Comment="1700">1700</Y_Axis_Display_Max>
+          <Curve_Name>13 Bar</Curve_Name>
+          <Curve_Data_and_Num_Points>
+            <CurveDataPoints NumPoints="22" Point0="0,0" Point1="333,48" Point2="666,88" Point3="1332,184" Point4="1665,224" Point5="2331,320" Point6="2664,360" Point7="3330,456" Point8="3663,496" Point9="4329,592" Point10="4662,632" Point11="5328,728" Point12="5661,768" Point13="6327,864" Point14="6660,904" Point15="7326,1000" Point16="7659,1040" Point17="8325,1136" Point18="8658,1176" Point19="9324,1272" Point20="9657,1312" Point21="10000,1360" />
+          </Curve_Data_and_Num_Points>
+        </Curve_Data>
+        <X_Axis_MinMax_Fault>
+          <X_Min_Fault Comment="0">0</X_Min_Fault>
+          <X_Max_Fault Comment="10000">10000</X_Max_Fault>
+        </X_Axis_MinMax_Fault>
+      </Input_A>
+      <Input_B>
+        <Sensor_Usage Comment="Temperature Sensor">4</Sensor_Usage>
+        <Curve_Data>
+          <Curve_ID Comment="0x15 (VDO 120 °C | Ohms | °C)">21</Curve_ID>
+          <X_Unit>
+            <UnitId>4</UnitId>
+          </X_Unit>
+          <X_Axis_Display_Min Comment="0">0</X_Axis_Display_Min>
+          <X_Axis_Display_Max Comment="480">480</X_Axis_Display_Max>
+          <Y_Unit>
+            <UnitId>1</UnitId>
+          </Y_Unit>
+          <Y_Axis_Display_Min Comment="0">0</Y_Axis_Display_Min>
+          <Y_Axis_Display_Max Comment="250">250</Y_Axis_Display_Max>
+          <Curve_Name>VDO 120 °C</Curve_Name>
+          <Curve_Data_and_Num_Points>
+            <CurveDataPoints NumPoints="8" Point0="0,163" Point1="16,134" Point2="32,110" Point3="48,94" Point4="64,85" Point5="96,73" Point6="160,56" Point7="480,35" />
+          </Curve_Data_and_Num_Points>
+        </Curve_Data>
+        <X_Axis_MinMax_Fault>
+          <X_Min_Fault Comment="0">0</X_Min_Fault>
+          <X_Max_Fault Comment="5000">5000</X_Max_Fault>
+        </X_Axis_MinMax_Fault>
+      </Input_B>
+      <Input_C>
+        <Sensor_Usage Comment="Not Used">0</Sensor_Usage>
+        <Curve_Data>
+          <Curve_ID Comment="0x0 (Not used |  | )">0</Curve_ID>
+          <X_Unit>
+            <UnitId>0</UnitId>
+          </X_Unit>
+          <X_Axis_Display_Min Comment="0">0</X_Axis_Display_Min>
+          <X_Axis_Display_Max Comment="0">0</X_Axis_Display_Max>
+          <Y_Unit>
+            <UnitId>0</UnitId>
+          </Y_Unit>
+          <Y_Axis_Display_Min Comment="0">0</Y_Axis_Display_Min>
+          <Y_Axis_Display_Max Comment="0">0</Y_Axis_Display_Max>
+          <Curve_Name>Not used</Curve_Name>
+          <Curve_Data_and_Num_Points>
+            <CurveDataPoints NumPoints="2" Point0="0,0" Point1="0,0" />
+          </Curve_Data_and_Num_Points>
+        </Curve_Data>
+        <X_Axis_MinMax_Fault>
+          <X_Min_Fault Comment="0">0</X_Min_Fault>
+          <X_Max_Fault Comment="0">0</X_Max_Fault>
+        </X_Axis_MinMax_Fault>
+      </Input_C>
+    </Sensor_Configuration>
+    <Scheduler>
+      <Event_1>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_1>
+      <Event_2>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_2>
+      <Event_3>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_3>
+      <Event_4>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_4>
+      <Event_5>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_5>
+      <Event_6>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_6>
+      <Event_7>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_7>
+      <Event_8>
+        <Event_Start_Time Comment="0">0</Event_Start_Time>
+        <Event_End_Time Comment="0">0</Event_End_Time>
+      </Event_8>
+    </Scheduler>
+    <Alternative_Config_Main>
+      <Alarms_1>
+        <Under_Speed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1200 RPM">1200</Trip>
+          <Return Comment="1200 RPM">1200</Return>
+        </Under_Speed_Shutdown>
+        <Overspeed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Shutdown>
+        <Under_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="50,1 Hz">50.1</Trip>
+          <Return Comment="59,0 Hz">59.0</Return>
+        </Under_Frequency_Warning>
+        <Under_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="50,0 Hz">50.0</Trip>
+          <Return Comment="50,0 Hz">50.0</Return>
+        </Under_Frequency_Shutdown>
+        <Over_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="60,3 Hz">60.3</Trip>
+          <Return Comment="60,2 Hz">60.2</Return>
+        </Over_Frequency_Warning>
+        <Over_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="65,0 Hz">65.0</Trip>
+          <Return Comment="65,0 Hz">65.0</Return>
+        </Over_Frequency_Shutdown>
+        <Under_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="212V PhPh">106</Trip>
+          <Return Comment="214V PhPh">107</Return>
+        </Under_Voltage_Warning>
+        <Under_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="190V PhPh">95</Trip>
+          <Return Comment="190V PhPh">95</Return>
+        </Under_Voltage_Shutdown>
+        <Over_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="248V PhPh">124</Trip>
+          <Return Comment="246V PhPh">123</Return>
+        </Over_Voltage_Warning>
+        <Over_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="250V PhPh">125</Trip>
+          <Return Comment="250V PhPh">125</Return>
+        </Over_Voltage_Shutdown>
+        <Over_Current_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning>
+        <Over_Current_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown>
+        <Loading_Frequency>
+          <Function Comment="Generator Loading Frequency OK">28</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="59,0 Hz">59.0</Trip>
+          <Return Comment="59,0 Hz">59.0</Return>
+        </Loading_Frequency>
+        <Loading_Voltage>
+          <Function Comment="Generator Loading Voltage OK">29</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="214V PhPh">107</Trip>
+          <Return Comment="214V PhPh">107</Return>
+        </Loading_Voltage>
+        <Mains_Under_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="54,9 Hz">54.9</Return>
+        </Mains_Under_Frequency>
+        <Mains_High_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="65,0 Hz">65.0</Trip>
+          <Return Comment="62,0 Hz">62.0</Return>
+        </Mains_High_Frequency>
+        <Mains_Low_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="200V PhPh">116</Trip>
+          <Return Comment="209V PhPh">121</Return>
+        </Mains_Low_Voltage>
+        <Mains_High_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="251V PhPh">145</Trip>
+          <Return Comment="230V PhPh">133</Return>
+        </Mains_High_Voltage>
+        <Overspeed_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1881 RPM">1881</Trip>
+          <Return Comment="1881 RPM">1881</Return>
+        </Overspeed_Overshoot_Shutdown>
+        <Overspeed_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Delayed_Shutdown>
+        <Over_Frequency_Overshoot_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="66,3 Hz">66.3</Trip>
+          <Return Comment="66,2 Hz">66.2</Return>
+        </Over_Frequency_Overshoot_Warning>
+        <Over_Frequency_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="71,5 Hz">71.5</Trip>
+          <Return Comment="71,5 Hz">71.5</Return>
+        </Over_Frequency_Overshoot_Shutdown>
+        <Over_Frequency_Delayed_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="60,3 Hz">60.3</Trip>
+          <Return Comment="60,2 Hz">60.2</Return>
+        </Over_Frequency_Delayed_Warning>
+        <Over_Frequency_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="65,0 Hz">65.0</Trip>
+          <Return Comment="65,0 Hz">65.0</Return>
+        </Over_Frequency_Delayed_Shutdown>
+        <KW_Overload>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="5s">50</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="90 %">90</Return>
+        </KW_Overload>
+        <Over_Current_Shutdown_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown_-_Level_2>
+        <Over_Current_Warning_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning_-_Level_2>
+      </Alarms_1>
+      <Misc_1>
+        <Misc_1_16_Bit>
+          <Main_Config_Selected>1</Main_Config_Selected>
+          <Alternative_Engine_Speed>False</Alternative_Engine_Speed>
+          <AC_System Comment="2 Phase, 3 Wire L1 - L2">3</AC_System>
+          <AC_System_Mains Comment="3 Phase, 4 Wire">0</AC_System_Mains>
+          <Mains_Failure_Detection>True</Mains_Failure_Detection>
+          <Immediate_Mains_Dropout>True</Immediate_Mains_Dropout>
+          <CT_Secondary Comment="5 Amp">5</CT_Secondary>
+        </Misc_1_16_Bit>
+        <Misc_1_32_Bit>
+          <Nominal_Voltage Comment="220V PhPh">110</Nominal_Voltage>
+          <Nominal_Frequency Comment="60,0 Hz">60.0</Nominal_Frequency>
+          <Full_Load_Rating Comment="500 A">500</Full_Load_Rating>
+          <CT_Primary Comment="600 A">600</CT_Primary>
+          <kW_Rating Comment="200kW">200</kW_Rating>
+        </Misc_1_32_Bit>
+      </Misc_1>
+    </Alternative_Config_Main>
+    <Alternative_Config_1>
+      <Alarms_2>
+        <Under_Speed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1200 RPM">1200</Trip>
+          <Return Comment="1200 RPM">1200</Return>
+        </Under_Speed_Shutdown>
+        <Overspeed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Shutdown>
+        <Under_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="42,0 Hz">42.0</Trip>
+          <Return Comment="45,0 Hz">45.0</Return>
+        </Under_Frequency_Warning>
+        <Under_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="40,0 Hz">40.0</Trip>
+          <Return Comment="40,0 Hz">40.0</Return>
+        </Under_Frequency_Shutdown>
+        <Over_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="54,0 Hz">54.0</Return>
+        </Over_Frequency_Warning>
+        <Over_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="57,0 Hz">57.0</Trip>
+          <Return Comment="57,0 Hz">57.0</Return>
+        </Over_Frequency_Shutdown>
+        <Under_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="339V PhPh">196</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Under_Voltage_Warning>
+        <Under_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="318V PhPh">184</Trip>
+          <Return Comment="318V PhPh">184</Return>
+        </Under_Voltage_Shutdown>
+        <Over_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="458V PhPh">265</Trip>
+          <Return Comment="439V PhPh">254</Return>
+        </Over_Voltage_Warning>
+        <Over_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="479V PhPh">277</Trip>
+          <Return Comment="479V PhPh">277</Return>
+        </Over_Voltage_Shutdown>
+        <Over_Current_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning>
+        <Over_Current_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown>
+        <Loading_Frequency>
+          <Function Comment="Generator Loading Frequency OK">28</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="45,0 Hz">45.0</Return>
+        </Loading_Frequency>
+        <Loading_Voltage>
+          <Function Comment="Generator Loading Voltage OK">29</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="358V PhPh">207</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Loading_Voltage>
+        <Mains_Low_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="48,0 Hz">48.0</Return>
+        </Mains_Low_Frequency>
+        <Mains_High_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="52,0 Hz">52.0</Return>
+        </Mains_High_Frequency>
+        <Mains_Low_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="318V PhPh">184</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Mains_Low_Voltage>
+        <Mains_High_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="478V PhPh">276</Trip>
+          <Return Comment="438V PhPh">253</Return>
+        </Mains_High_Voltage>
+        <Overspeed_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1881 RPM">1881</Trip>
+          <Return Comment="1881 RPM">1881</Return>
+        </Overspeed_Overshoot_Shutdown>
+        <Overspeed_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Delayed_Shutdown>
+        <Over_Frequency_Overshoot_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="60,5 Hz">60.5</Trip>
+          <Return Comment="59,4 Hz">59.4</Return>
+        </Over_Frequency_Overshoot_Warning>
+        <Over_Frequency_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="62,7 Hz">62.7</Trip>
+          <Return Comment="62,7 Hz">62.7</Return>
+        </Over_Frequency_Overshoot_Shutdown>
+        <Over_Frequency_Delayed_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="54,0 Hz">54.0</Return>
+        </Over_Frequency_Delayed_Warning>
+        <Over_Frequency_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="57,0 Hz">57.0</Trip>
+          <Return Comment="57,0 Hz">57.0</Return>
+        </Over_Frequency_Delayed_Shutdown>
+        <KW_Overload>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="5s">50</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="90 %">90</Return>
+        </KW_Overload>
+        <Over_Current_Shutdown_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown_-_Level_2>
+        <Over_Current_Warning_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning_-_Level_2>
+      </Alarms_2>
+      <Misc_2>
+        <Misc_2_16_Bit>
+          <Alternative_2_Enable>False</Alternative_2_Enable>
+          <Alternative_Engine_Speed>False</Alternative_Engine_Speed>
+          <AC_System Comment="3 Phase, 4 Wire">0</AC_System>
+          <AC_System_Mains Comment="3 Phase, 4 Wire">0</AC_System_Mains>
+          <Mains_Failure_Detection>True</Mains_Failure_Detection>
+          <Immediate_Mains_Dropout>False</Immediate_Mains_Dropout>
+          <CT_Secondary Comment="5 Amp">5</CT_Secondary>
+        </Misc_2_16_Bit>
+        <Misc_2_32_Bit>
+          <Nominal_Voltage Comment="398V PhPh">230</Nominal_Voltage>
+          <Nominal_Frequency Comment="50,0 Hz">50.0</Nominal_Frequency>
+          <Full_Load_Rating Comment="500 A">500</Full_Load_Rating>
+          <CT_Primary Comment="600 A">600</CT_Primary>
+          <kW_Rating Comment="200kW">200</kW_Rating>
+        </Misc_2_32_Bit>
+      </Misc_2>
+    </Alternative_Config_1>
+    <Alternative_Config_2>
+      <Alarms_2>
+        <Under_Speed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1200 RPM">1200</Trip>
+          <Return Comment="1200 RPM">1200</Return>
+        </Under_Speed_Shutdown>
+        <Overspeed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Shutdown>
+        <Under_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="42,0 Hz">42.0</Trip>
+          <Return Comment="45,0 Hz">45.0</Return>
+        </Under_Frequency_Warning>
+        <Under_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="40,0 Hz">40.0</Trip>
+          <Return Comment="40,0 Hz">40.0</Return>
+        </Under_Frequency_Shutdown>
+        <Over_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="54,0 Hz">54.0</Return>
+        </Over_Frequency_Warning>
+        <Over_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="57,0 Hz">57.0</Trip>
+          <Return Comment="57,0 Hz">57.0</Return>
+        </Over_Frequency_Shutdown>
+        <Under_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="339V PhPh">196</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Under_Voltage_Warning>
+        <Under_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="318V PhPh">184</Trip>
+          <Return Comment="318V PhPh">184</Return>
+        </Under_Voltage_Shutdown>
+        <Over_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="458V PhPh">265</Trip>
+          <Return Comment="439V PhPh">254</Return>
+        </Over_Voltage_Warning>
+        <Over_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="479V PhPh">277</Trip>
+          <Return Comment="479V PhPh">277</Return>
+        </Over_Voltage_Shutdown>
+        <Over_Current_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning>
+        <Over_Current_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown>
+        <Loading_Frequency>
+          <Function Comment="Generator Loading Frequency OK">28</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="45,0 Hz">45.0</Return>
+        </Loading_Frequency>
+        <Loading_Voltage>
+          <Function Comment="Generator Loading Voltage OK">29</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="358V PhPh">207</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Loading_Voltage>
+        <Mains_Low_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="48,0 Hz">48.0</Return>
+        </Mains_Low_Frequency>
+        <Mains_High_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="52,0 Hz">52.0</Return>
+        </Mains_High_Frequency>
+        <Mains_Low_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="318V PhPh">184</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Mains_Low_Voltage>
+        <Mains_High_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="478V PhPh">276</Trip>
+          <Return Comment="438V PhPh">253</Return>
+        </Mains_High_Voltage>
+        <Overspeed_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1881 RPM">1881</Trip>
+          <Return Comment="1881 RPM">1881</Return>
+        </Overspeed_Overshoot_Shutdown>
+        <Overspeed_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Delayed_Shutdown>
+        <Over_Frequency_Overshoot_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="60,5 Hz">60.5</Trip>
+          <Return Comment="59,4 Hz">59.4</Return>
+        </Over_Frequency_Overshoot_Warning>
+        <Over_Frequency_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="62,7 Hz">62.7</Trip>
+          <Return Comment="62,7 Hz">62.7</Return>
+        </Over_Frequency_Overshoot_Shutdown>
+        <Over_Frequency_Delayed_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="54,0 Hz">54.0</Return>
+        </Over_Frequency_Delayed_Warning>
+        <Over_Frequency_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="57,0 Hz">57.0</Trip>
+          <Return Comment="57,0 Hz">57.0</Return>
+        </Over_Frequency_Delayed_Shutdown>
+        <KW_Overload>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="5s">50</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="90 %">90</Return>
+        </KW_Overload>
+        <Over_Current_Shutdown_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown_-_Level_2>
+        <Over_Current_Warning_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning_-_Level_2>
+      </Alarms_2>
+      <Misc_2>
+        <Misc_2_16_Bit>
+          <Alternative_2_Enable>False</Alternative_2_Enable>
+          <Alternative_Engine_Speed>False</Alternative_Engine_Speed>
+          <AC_System Comment="3 Phase, 4 Wire">0</AC_System>
+          <AC_System_Mains Comment="3 Phase, 4 Wire">0</AC_System_Mains>
+          <Mains_Failure_Detection>True</Mains_Failure_Detection>
+          <Immediate_Mains_Dropout>False</Immediate_Mains_Dropout>
+          <CT_Secondary Comment="5 Amp">5</CT_Secondary>
+        </Misc_2_16_Bit>
+        <Misc_2_32_Bit>
+          <Nominal_Voltage Comment="398V PhPh">230</Nominal_Voltage>
+          <Nominal_Frequency Comment="50,0 Hz">50.0</Nominal_Frequency>
+          <Full_Load_Rating Comment="500 A">500</Full_Load_Rating>
+          <CT_Primary Comment="600 A">600</CT_Primary>
+          <kW_Rating Comment="200kW">200</kW_Rating>
+        </Misc_2_32_Bit>
+      </Misc_2>
+    </Alternative_Config_2>
+    <Alternative_Config_3>
+      <Alarms_2>
+        <Under_Speed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1200 RPM">1200</Trip>
+          <Return Comment="1200 RPM">1200</Return>
+        </Under_Speed_Shutdown>
+        <Overspeed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Shutdown>
+        <Under_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="42,0 Hz">42.0</Trip>
+          <Return Comment="45,0 Hz">45.0</Return>
+        </Under_Frequency_Warning>
+        <Under_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="40,0 Hz">40.0</Trip>
+          <Return Comment="40,0 Hz">40.0</Return>
+        </Under_Frequency_Shutdown>
+        <Over_Frequency_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="54,0 Hz">54.0</Return>
+        </Over_Frequency_Warning>
+        <Over_Frequency_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="57,0 Hz">57.0</Trip>
+          <Return Comment="57,0 Hz">57.0</Return>
+        </Over_Frequency_Shutdown>
+        <Under_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="339V PhPh">196</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Under_Voltage_Warning>
+        <Under_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Safety On">3</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="318V PhPh">184</Trip>
+          <Return Comment="318V PhPh">184</Return>
+        </Under_Voltage_Shutdown>
+        <Over_Voltage_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="458V PhPh">265</Trip>
+          <Return Comment="439V PhPh">254</Return>
+        </Over_Voltage_Warning>
+        <Over_Voltage_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="479V PhPh">277</Trip>
+          <Return Comment="479V PhPh">277</Return>
+        </Over_Voltage_Shutdown>
+        <Over_Current_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning>
+        <Over_Current_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown>
+        <Loading_Frequency>
+          <Function Comment="Generator Loading Frequency OK">28</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="45,0 Hz">45.0</Return>
+        </Loading_Frequency>
+        <Loading_Voltage>
+          <Function Comment="Generator Loading Voltage OK">29</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="358V PhPh">207</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Loading_Voltage>
+        <Mains_Low_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="45,0 Hz">45.0</Trip>
+          <Return Comment="48,0 Hz">48.0</Return>
+        </Mains_Low_Frequency>
+        <Mains_High_Frequency>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="52,0 Hz">52.0</Return>
+        </Mains_High_Frequency>
+        <Mains_Low_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Less Than">2</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="318V PhPh">184</Trip>
+          <Return Comment="358V PhPh">207</Return>
+        </Mains_Low_Voltage>
+        <Mains_High_Voltage>
+          <Function Comment="Mains Fail">32</Function>
+          <Action Comment="None">0</Action>
+          <Arming Comment="Always">1</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="478V PhPh">276</Trip>
+          <Return Comment="438V PhPh">253</Return>
+        </Mains_High_Voltage>
+        <Overspeed_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="1881 RPM">1881</Trip>
+          <Return Comment="1881 RPM">1881</Return>
+        </Overspeed_Overshoot_Shutdown>
+        <Overspeed_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="1710 RPM">1710</Trip>
+          <Return Comment="1710 RPM">1710</Return>
+        </Overspeed_Delayed_Shutdown>
+        <Over_Frequency_Overshoot_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="60,5 Hz">60.5</Trip>
+          <Return Comment="59,4 Hz">59.4</Return>
+        </Over_Frequency_Overshoot_Warning>
+        <Over_Frequency_Overshoot_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="4,0s">40</Timer>
+          <Trip Comment="62,7 Hz">62.7</Trip>
+          <Return Comment="62,7 Hz">62.7</Return>
+        </Over_Frequency_Overshoot_Shutdown>
+        <Over_Frequency_Delayed_Warning>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="55,0 Hz">55.0</Trip>
+          <Return Comment="54,0 Hz">54.0</Return>
+        </Over_Frequency_Delayed_Warning>
+        <Over_Frequency_Delayed_Shutdown>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Overshoot Activation">5</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="2s">2</Timer>
+          <Trip Comment="57,0 Hz">57.0</Trip>
+          <Return Comment="57,0 Hz">57.0</Return>
+        </Over_Frequency_Delayed_Shutdown>
+        <KW_Overload>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Shutdown">1</Action>
+          <Arming Comment="Never">0</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="5s">50</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="90 %">90</Return>
+        </KW_Overload>
+        <Over_Current_Shutdown_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Electrical Trip">2</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Overcurrent Trip Curve">4</Type>
+          <Timer Comment="1m">600</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Shutdown_-_Level_2>
+        <Over_Current_Warning_-_Level_2>
+          <Function Comment="User Configured">0</Function>
+          <Action Comment="Warning">5</Action>
+          <Arming Comment="From Starting">2</Arming>
+          <Type Comment="Analogue Greater Than">3</Type>
+          <Timer Comment="0">0</Timer>
+          <Trip Comment="100 %">100</Trip>
+          <Return Comment="100 %">100</Return>
+        </Over_Current_Warning_-_Level_2>
+      </Alarms_2>
+      <Misc_2>
+        <Misc_2_16_Bit>
+          <Alternative_2_Enable>False</Alternative_2_Enable>
+          <Alternative_Engine_Speed>False</Alternative_Engine_Speed>
+          <AC_System Comment="3 Phase, 4 Wire">0</AC_System>
+          <AC_System_Mains Comment="3 Phase, 4 Wire">0</AC_System_Mains>
+          <Mains_Failure_Detection>True</Mains_Failure_Detection>
+          <Immediate_Mains_Dropout>False</Immediate_Mains_Dropout>
+          <CT_Secondary Comment="5 Amp">5</CT_Secondary>
+        </Misc_2_16_Bit>
+        <Misc_2_32_Bit>
+          <Nominal_Voltage Comment="398V PhPh">230</Nominal_Voltage>
+          <Nominal_Frequency Comment="50,0 Hz">50.0</Nominal_Frequency>
+          <Full_Load_Rating Comment="500 A">500</Full_Load_Rating>
+          <CT_Primary Comment="600 A">600</CT_Primary>
+          <kW_Rating Comment="200kW">200</kW_Rating>
+        </Misc_2_32_Bit>
+      </Misc_2>
+    </Alternative_Config_3>
+    <Engine>
+      <Ignored_DTC>-1,-1,-1,-1,-1,-1,-1,-1,-1,-1</Ignored_DTC>
+      <Misc_Items>
+        <Misc_16_Bit>
+          <Misc_16_Bit_A>
+            <J1939_75_Instrumentation>False</J1939_75_Instrumentation>
+            <J1939_75_Alarms>False</J1939_75_Alarms>
+            <Engine_Type Comment="1">1</Engine_Type>
+            <EnhancedJ1939>1</EnhancedJ1939>
+            <Start_Attempts Comment="5">5</Start_Attempts>
+          </Misc_16_Bit_A>
+          <Droop_Enable>0</Droop_Enable>
+          <Droop>0</Droop>
+          <Misc_16_Bit_B>
+            <CAN_Source_Messages Comment="0">0</CAN_Source_Messages>
+            <CAN_Source_Instrumentation Comment="44">44</CAN_Source_Instrumentation>
+            <DM_Lamp_Suppress>True</DM_Lamp_Suppress>
+          </Misc_16_Bit_B>
+          <Module_Record_Engine_Hours>False</Module_Record_Engine_Hours>
+          <Use_Module_Oil_Pressure>False</Use_Module_Oil_Pressure>
+          <Use_Module_Coolant_Temperature>False</Use_Module_Coolant_Temperature>
+          <Module_Engine_Speed>False</Module_Engine_Speed>
+          <Use_Module_Charge_Alt>False</Use_Module_Charge_Alt>
+          <Misc_16_Bit_C>False</Misc_16_Bit_C>
+          <Mag_Pickup_Used>False</Mag_Pickup_Used>
+          <Misc_16_Bit_D>
+            <Pre_Heat_Enabled>False</Pre_Heat_Enabled>
+            <Pre_Heat_Temperature Comment="50 °C,  122 °F">50</Pre_Heat_Temperature>
+            <Post_Heat_Enabled>False</Post_Heat_Enabled>
+            <Post_Heat_Temperature Comment="50 °C,  122 °F">50</Post_Heat_Temperature>
+          </Misc_16_Bit_D>
+        </Misc_16_Bit>
+        <Misc_32_Bit>
+          <Crank_attempt Comment="9,0 s">9.0</Crank_attempt>
+          <Crank_Rest Comment="10s">10</Crank_Rest>
+          <Fail_To_Stop Comment="30s">30</Fail_To_Stop>
+          <Gas_engine_choke_timer Comment="2s">2</Gas_engine_choke_timer>
+          <Gas_engine_delay_time Comment="2s">2</Gas_engine_delay_time>
+          <Gas_engine_ignition_off_time Comment="2s">2</Gas_engine_ignition_off_time>
+          <Delay_Crank Comment="0,1s">1</Delay_Crank>
+          <Max_Start_Pause_Time Comment="0,2s">2</Max_Start_Pause_Time>
+          <Misc_32_Bit_A>
+            <Pre_Heat_Duration Comment="0s">0</Pre_Heat_Duration>
+            <Post_Heat_Duration Comment="0s">0</Post_Heat_Duration>
+          </Misc_32_Bit_A>
+        </Misc_32_Bit>
+      </Misc_Items>
+    </Engine>
+    <Configurable_CAN>
+      <Instrument_1>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 1</Description>
+      </Instrument_1>
+      <Instrument_1_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_1_Unit>
+      <Instrument_2>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 2</Description>
+      </Instrument_2>
+      <Instrument_2_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_2_Unit>
+      <Instrument_3>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 3</Description>
+      </Instrument_3>
+      <Instrument_3_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_3_Unit>
+      <Instrument_4>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 4</Description>
+      </Instrument_4>
+      <Instrument_4_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_4_Unit>
+      <Instrument_5>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 5</Description>
+      </Instrument_5>
+      <Instrument_5_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_5_Unit>
+      <Instrument_6>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 6</Description>
+      </Instrument_6>
+      <Instrument_6_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_6_Unit>
+      <Instrument_7>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 7</Description>
+      </Instrument_7>
+      <Instrument_7_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_7_Unit>
+      <Instrument_8>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 8</Description>
+      </Instrument_8>
+      <Instrument_8_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_8_Unit>
+      <Instrument_9>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 9</Description>
+      </Instrument_9>
+      <Instrument_9_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_9_Unit>
+      <Instrument_10>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <Timeout_Enabled>False</Timeout_Enabled>
+        <Message_Timeout Comment="5s">5000</Message_Timeout>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="Unsigned 32 bit">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="Unsigned 32 bit">1</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="0">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="100">100</Output_Range_Maximum>
+        </Output_Range>
+        <Description>Configurable CAN 10</Description>
+      </Instrument_10>
+      <Instrument_10_Unit>
+        <UnitId>65535</UnitId>
+        <UnitData Description="" Suffix="" Multiplier="0" Is_32_Bit_Value="True" Precision="1" Display_Option_Code="0" />
+      </Instrument_10_Unit>
+      <TX_Instrument_1>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <TXRate Comment="100ms">100</TXRate>
+        <TXSource Comment="&lt;Not Used&gt;">-1</TXSource>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="0">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="100">100</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="Unsigned 32 bit">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="Unsigned 32 bit">1</Output_Range_Maximum>
+        </Output_Range>
+      </TX_Instrument_1>
+      <TX_Instrument_2>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <TXRate Comment="100ms">100</TXRate>
+        <TXSource Comment="&lt;Not Used&gt;">-1</TXSource>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="0">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="100">100</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="Unsigned 32 bit">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="Unsigned 32 bit">1</Output_Range_Maximum>
+        </Output_Range>
+      </TX_Instrument_2>
+      <TX_Instrument_3>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <TXRate Comment="100ms">100</TXRate>
+        <TXSource Comment="&lt;Not Used&gt;">-1</TXSource>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="0">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="100">100</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="Unsigned 32 bit">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="Unsigned 32 bit">1</Output_Range_Maximum>
+        </Output_Range>
+      </TX_Instrument_3>
+      <TX_Instrument_4>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <TXRate Comment="100ms">100</TXRate>
+        <TXSource Comment="&lt;Not Used&gt;">-1</TXSource>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="0">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="100">100</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="Unsigned 32 bit">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="Unsigned 32 bit">1</Output_Range_Maximum>
+        </Output_Range>
+      </TX_Instrument_4>
+      <TX_Instrument_5>
+        <Enabled>False</Enabled>
+        <CAN_Port Comment="ECU">1</CAN_Port>
+        <Message_Type Comment="29 Bit">0</Message_Type>
+        <Show_On_Module>False</Show_On_Module>
+        <Message_ID>
+          <MessageID29Bit Comment="0">0</MessageID29Bit>
+        </Message_ID>
+        <TXRate Comment="100ms">100</TXRate>
+        <TXSource Comment="&lt;Not Used&gt;">-1</TXSource>
+        <Data_Start_Offset Comment="0">0</Data_Start_Offset>
+        <Data_Length Comment="1">1</Data_Length>
+        <Byte_Order Comment="Little Endian">1</Byte_Order>
+        <Signed>False</Signed>
+        <Input_Range>
+          <Input_Range_Minimum Comment="0">0</Input_Range_Minimum>
+          <Input_Range_Maximum Comment="100">100</Input_Range_Maximum>
+        </Input_Range>
+        <Output_Range>
+          <Output_Range_Minimum Comment="Unsigned 32 bit">0</Output_Range_Minimum>
+          <Output_Range_Maximum Comment="Unsigned 32 bit">1</Output_Range_Maximum>
+        </Output_Range>
+      </TX_Instrument_5>
+    </Configurable_CAN>
+    <Footer>
+      <CRC>46320</CRC>
+    </Footer>
+  </ConfigurationFile>
+</ConfigurationFile_Extended>
